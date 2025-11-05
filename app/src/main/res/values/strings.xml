@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coleta Aí</string>
+    <string name="entrar">Entrar</string>
+    <string name="Login">Login</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="lembrar_senha">Lembrar Senha</string>
+    <string name="Esqueci_senha">Esqueci a Senha</string>
+    <string name="preferencia">ou entre com sua preferência</string>
+    <string name="icone_facebook">Ícone do Facebook para login social</string>
+    <string name="icone_google">Ícone do Google para login social</string>
+    <string name="cadastrar_novo">Criar Conta</string>
+    <string name="hint_nome">Nome Completo</string>
+    <string name="hint_confirmar_senha">Confirme a Senha</string>
+    <string name="tipo_usuario_titulo">Tipo de Cadastro:</string>
+    <string name="tipo_empresa">Empresa</string>
+    <string name="tipo_pessoa">Cidadão</string>
+    <string name="tipo_comum">Coletor</string>
+    <string name="cadastrar_conta">Cadastrar Minha Conta</string>
+    <string name="voltar_login">Voltar para o Login</string>
+    <string name="novo_deposito_titulo">Registrar Nova Coleta</string>
+    <string name="novo_deposito_subtitulo">Informe os detalhes do material para que um catador possa encontrá-lo.</string>
+    <string name="hint_material_tipo">Ex: Papelão, Plástico, Vidro, Palete</string>
+    <string name="hint_quantidade">Quantidade e Peso (Ex: 10 Caixas, 50kg, 2 Paletes)</string>
+    <string name="hint_detalhes_local">Detalhes (Ex: Material está em frente à porta azul, pronto para levar)</string>
+    <string name="btn_adicionar_foto">Adicionar Foto do Material (Opcional)</string>
+    <string name="btn_cadastrar_deposito">PUBLICAR DEPÓSITO</string>
+    <string name="novo_deposito">Adicionar novo depósito</string>
+    <string name="depositos">Depósitos</string>
+    <string name="dica_tipo">Papelão, Plastico, Madeira, Vidro...</string>
+    <string name="new_deposit">Criar Depósito</string>
+    <string name="perfil_do_catador">Perfil do Catador</string>
+    <string name="coletas">Coletas</string>
+    <string name="icone_do_material">Icone do Material</string>
+    <string name="ver_meu_perfil">meu_perfil\n</string>
+    <string name="sair_logout">Sair</string>
+    <string name="menu_lista">menu</string>
+    <string name="menu_perfil">perfil</string>
+    <string name="menu_deposito">Depositos\nconcluidos</string>
+    <string name="menu_opc1">Opção</string>
+    <string name="coletas_disponiveis">Coletas Disponíveis</string>
+    <string name="perfil">Perfil\n</string>
+    <string name="lista">Lista</string>
+    <string name="mapa">Mapa</string>
+    <string name="aceitar_coleta_btn">Aceitar Coleta</string>
+    <string name="meus_depositos">Meus\nDepositos</string>
+
+</resources>

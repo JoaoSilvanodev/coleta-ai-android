@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_lista_coletas"
+        android:title="Coletas"
+        android:icon="@drawable/ic_lista" />
+
+    <item
+        android:id="@+id/nav_coletas_aceitas"
+        android:title="Aceitas"
+        android:icon="@drawable/ic_check" />
+
+    <item android:id="@+id/nav_notifications"
+            android:title="Notificações"
+        android:icon="@drawable/ic_notify"/>
+
+    <item
+        android:id="@+id/nav_perfil_coleta"
+        android:title="@string/perfil"
+        android:icon="@drawable/icon_user" />
+
+
+</menu>

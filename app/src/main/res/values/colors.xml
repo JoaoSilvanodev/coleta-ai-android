@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_primary">#93C839</color>
+    <color name="my_secondary">#1673B1</color>
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="my_background_color">#E3F2FD</color>
+    <color name="my_background_color_dark">#595959</color>
+    <color name="bg_color1">#43A047</color>
+    <color name="bg_color2">#039BE5</color>
+    <color name="checkboxtermos">#2C2C2C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

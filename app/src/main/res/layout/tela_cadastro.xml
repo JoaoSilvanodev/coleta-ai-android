@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scroll_view_cadastro"
+    tools:context=".ui.auth.TelaCadastro"> <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/view_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layout_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/card_view_formulario"
+        app:layout_constraintVertical_weight="1">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_formulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        app:cardCornerRadius="20dp"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="-10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:id="@+id/tv_titulo_cadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastrar_novo"
+                android:textColor="@color/my_primary"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+
+            <View style="@style/Views" android:id="@+id/view_divisor_titulo"/>
+
+            <EditText
+                android:id="@+id/et_nome"
+                style="@style/CampoDeTextoPadrao"
+                android:autofillHints="name"
+                android:drawableEnd="@drawable/icon_user"
+                android:hint="@string/hint_nome"
+                android:inputType="textPersonName" />
+
+            <View style="@style/Views" android:id="@+id/view_divisor_nome"/>
+
+            <EditText
+                android:id="@+id/et_email_cadastro"
+                style="@style/CampoDeTextoPadrao"
+                android:autofillHints="emailAddress"
+                android:drawableEnd="@drawable/icon_email"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress" />
+
+            <View style="@style/Views" android:id="@+id/view_divisor_email"/>
+
+            <EditText
+                android:id="@+id/et_senha_cadastro"
+                style="@style/CampoDeTextoPadrao"
+                android:autofillHints="password"
+                android:drawableEnd="@drawable/icon_password"
+                android:hint="@string/hint_senha"
+                android:inputType="textPassword"/>
+
+            <View style="@style/Views" android:id="@+id/view_divisor_senha"/>
+
+            <EditText
+                android:id="@+id/et_confirmar_senha"
+                style="@style/CampoDeTextoPadrao"
+                android:autofillHints="password"
+                android:drawableEnd="@drawable/icon_password"
+                android:hint="@string/hint_confirmar_senha"
+                android:inputType="textPassword"/>
+
+            <View style="@style/Views" android:id="@+id/view_divisor_confirmar_senha"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo_usuario_titulo"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="start"/>
+            <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_tipo_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                style="@style/radiobutton"
+                android:id="@+id/rb_empresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"  android:text="@string/tipo_empresa"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread_inside" />
+                <RadioButton
+            style="@style/radiobutton"
+            android:id="@+id/rb_coletor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/tipo_comum"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/rb_empresa"
+            app:layout_constraintEnd_toStartOf="@id/rb_cidadao" />
+
+            <RadioButton
+                style="@style/radiobutton"
+                android:id="@+id/rb_cidadao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/tipo_pessoa"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/rb_coletor" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View style="@style/Views" android:id="@+id/view_divisor_tipo_usuario"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cadastrar_final"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:backgroundTint="@color/my_primary"
+                android:textColor="@color/white"
+                android:text="@string/cadastrar_conta" />
+
+            <View style="@style/Views" android:id="@+id/view_divisor_botoes"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_voltar_login"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="@color/my_primary"
+                app:strokeColor="@color/my_primary"
+                android:text="@string/voltar_login" />
+
+            <View style="@style/Views" android:id="@+id/view_divisor_final"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

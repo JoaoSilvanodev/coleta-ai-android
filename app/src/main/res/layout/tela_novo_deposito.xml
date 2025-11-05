@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.deposito.TelaNovoDeposito"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="27dp"
+        android:layout_gravity="center">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/new_deposit"
+           android:textSize="24sp"
+           android:gravity="center_horizontal"
+           android:textColor="@color/my_primary"
+           android:textStyle="bold"
+           android:paddingBottom="12dp"/>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/dica_tipo"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           android:layout_marginBottom="16dp">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/etMaterial"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="textCapSentences"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Quantidade"
+           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+           android:layout_marginBottom="16dp">
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/etQuantidade"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="textCapSentences"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Detalhes"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginBottom="16dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDetalhes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSalvarDeposito"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Criar Depósito"
+            android:backgroundTint="@color/my_secondary"
+            android:textColor="@color/white"/>
+
+   </LinearLayout>
+</androidx.core.widget.NestedScrollView>
