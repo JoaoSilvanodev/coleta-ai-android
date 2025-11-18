@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD4g4VhnuOHTmkQNf6PYz8L184y7kQuUbY" />
+            android:value="${googleMapsApiKey}" />
 
         <activity
             android:name=".ui.auth.TelaLogin"

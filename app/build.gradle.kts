@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     id("com.google.gms.google-services")
@@ -7,13 +9,17 @@ android {
     namespace = "com.coleta"
     compileSdk = 36
 
+
     defaultConfig {
         applicationId = "com.coleta"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
-
+        val localProps = Properties()
+        localProps.load(project.rootProject.file("local.properties").inputStream())
+        val apiKey = localProps.getProperty("googleMapsApiKey") ?: ""
+        manifestPlaceholders["googleMapsApiKey"] = apiKey
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
