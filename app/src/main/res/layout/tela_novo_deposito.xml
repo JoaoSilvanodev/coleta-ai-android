@@ -68,6 +68,21 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_adicionar_foto"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/btn_adicionar_foto"
+            android:backgroundTint="@color/my_secondary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSalvarDeposito"
             android:layout_width="match_parent"
             android:layout_height="60dp"

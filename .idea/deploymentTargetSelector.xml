@@ -7,7 +7,7 @@
       </SelectionState>
       <SelectionState runConfigName="TelaLogin">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-11-05T21:27:38.149672670Z">
+        <DropdownSelection timestamp="2025-11-14T13:46:05.389175369Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=/home/joao/.android/avd/Medium_Phone.avd" />

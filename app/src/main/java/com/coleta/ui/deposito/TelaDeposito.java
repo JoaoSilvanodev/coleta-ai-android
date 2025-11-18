@@ -3,23 +3,16 @@ package com.coleta.ui.deposito;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
 import com.coleta.R;
-// Remova a importação da TelaPerfil (Activity), pois agora usamos o PerfilFragment
-// import com.coleta.ui.perfil.TelaPerfil;
-import com.coleta.ui.perfil.PerfilFragment; // Importa o Fragmento de Perfil
+import com.coleta.ui.perfil.PerfilFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationBarView;
 
-// Importe o MeusDepositosFragment que você já criou
-import com.coleta.ui.deposito.MeusDepositosFragment;
 
 public class TelaDeposito extends AppCompatActivity {
 
@@ -47,7 +40,7 @@ public class TelaDeposito extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Configurar a navegação da Bottom Bar
+
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {

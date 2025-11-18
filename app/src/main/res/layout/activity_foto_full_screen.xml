@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".ui.deposito.TelaFoto">
+
+    <ImageView
+        android:id="@+id/img_full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="Imagem do depósito em tela cheia" />
+
+    <ImageButton
+        android:id="@+id/btn_fechar_foto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:tint="@android:color/white"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Fechar foto"/>
+
+</FrameLayout>

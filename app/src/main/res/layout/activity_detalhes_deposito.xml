@@ -101,20 +101,14 @@
                 android:textStyle="bold"
                 android:layout_marginTop="16dp"/>
 
-            <LinearLayout
-                android:id="@+id/maps_container_detalhes"
+            <androidx.fragment.app.FragmentContainerView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
+                android:id="@+id/maps_container_detalhes"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_marginTop="8dp"
-                android:background="@color/gray_medium"
-                android:orientation="horizontal">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Mapa será exibido aqui"/>
+                tools:layout="@layout/support_simple_spinner_dropdown_item" />
 
-
-            </LinearLayout>
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_acao_padrao"
@@ -123,7 +117,7 @@
                     android:layout_marginTop="32dp"
                     android:layout_marginBottom="16dp"
                     android:text="Aceitar Coleta"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     app:backgroundTint="@color/my_primary" />
 
      </LinearLayout>

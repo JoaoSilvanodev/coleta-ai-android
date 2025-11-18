@@ -8,8 +8,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import com.coleta.R;
 import com.coleta.ui.perfil.PerfilFragment;
-import com.coleta.ui.coleta.MensagensFragment;
-import com.coleta.ui.coleta.NotificacoesFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 

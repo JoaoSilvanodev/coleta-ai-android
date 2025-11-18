@@ -6,4 +6,6 @@ public interface OnDepositoClickListener {
 
     void onAceiteColetaClick(Depositos deposito);
 
+    void onItemClick(Depositos deposito);
+
 }

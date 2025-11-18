@@ -17,7 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Coletaai">
 
-
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD4g4VhnuOHTmkQNf6PYz8L184y7kQuUbY" />
 
         <activity
             android:name=".ui.auth.TelaLogin"
@@ -41,9 +43,12 @@
             android:name=".ui.deposito.TelaNovoDeposito"
             android:exported="false">
         </activity>
-
         <activity android:name=".ui.deposito.TelaDetalhesDeposito"
             android:exported="false"/>
+        <activity
+            android:name=".ui.deposito.TelaFoto"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
     </application>
 
