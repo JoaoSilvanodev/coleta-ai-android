@@ -13,7 +13,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 import com.coleta.ui.adapter.OnDepositoClickListener;
-import com.coleta.ui.deposito.TelaDetalhesDeposito;
 import com.coleta.R;
 import com.coleta.model.Depositos;
 import com.coleta.ui.adapter.DepositosAdapter;

@@ -10,7 +10,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.coleta.R;
 import com.coleta.ui.coleta.TelaColeta;
-import com.coleta.ui.auth.TelaCadastro; // Necessário para a navegação
 import com.coleta.ui.deposito.TelaDeposito;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;

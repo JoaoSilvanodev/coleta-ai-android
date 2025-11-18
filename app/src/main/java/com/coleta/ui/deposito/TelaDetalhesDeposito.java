@@ -1,7 +1,6 @@
 package com.coleta.ui.deposito;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,7 +30,6 @@ import com.google.firebase.firestore.WriteBatch;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 public class TelaDetalhesDeposito extends AppCompatActivity implements OnMapReadyCallback {

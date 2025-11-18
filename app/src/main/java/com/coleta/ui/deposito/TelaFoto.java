@@ -29,7 +29,7 @@ public class TelaFoto extends AppCompatActivity {
 
             Glide.with(this)
                     .load(fotoUrl)
-                    .placeholder(R.color.gray_medium) // Um placeholder
+                    .placeholder(R.color.gray_medium)
                     .into(imgFullScreen);
         } else {
             Toast.makeText(this, "Erro: URL da imagem não encontrada.", Toast.LENGTH_LONG).show();

@@ -129,10 +129,6 @@ public class ListaColetasFragment extends Fragment implements OnDepositoClickLis
 
     }
 
-
-
-
-
     private void buscarDepositosDisponiveis() {
         if (progressBar != null) progressBar.setVisibility(View.VISIBLE);
         listaDepositos.clear();

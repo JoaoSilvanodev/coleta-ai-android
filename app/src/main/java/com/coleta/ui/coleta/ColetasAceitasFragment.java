@@ -21,7 +21,6 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.coleta.ui.adapter.OnDepositoClickListener;
 import com.coleta.ui.deposito.TelaDetalhesDeposito;
 import java.util.ArrayList;
 import java.util.List;
