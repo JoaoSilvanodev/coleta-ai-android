@@ -1,7 +1,7 @@
 # Coleta Ai
 
 ## Sobre
-Aplicativo Android voltado à gestão de coleta e depósito de resíduos recicláveis. O objetivo é facilitar a conexão entre quem descarta materiais e coletores autônomos, organizando informações essenciais como tipo de material, quantidade e localização.
+Aplicativo Android criado para a disciplina "Projeto Integrador", voltado à gestão de coleta e depósito de resíduos recicláveis. O objetivo é facilitar a conexão entre quem descarta materiais e coletores autônomos, organizando informações essenciais como tipo de material, quantidade e localização.
 
 ## Funcionalidades
 - Cadastro de usuários com perfis distintos (gerador e coletor)
@@ -28,10 +28,51 @@ Usuários do tipo gerador registram depósitos de materiais recicláveis. Coleto
 Projeto desenvolvido anteriormente e mantido como portfólio. As principais funcionalidades estão implementadas.
 
 ## Screenshots
-![Cadastro](screenshots/tela de cadastro_.jpg)
-![Criação](screenshots/criação depósito_.jpg)
-![Detalhes](screenshots/detalhes.jpg)
-![Lista](screenshots/lista coletas.jpg)
-![Coletas aceitas](screenshots/tela coletas aceitas.jpg)
-![Coletas disponíveis](screenshots/tela das coletas disponíveis_.jpg)
-![Login](screenshots/tela inicial de login.jpg)
+
+### Autenticação
+<table align="start">
+  <tr>
+    <td align="start">
+      <img src="screenshots/tela-cadastro.jpg" width="220"/><br/>
+      <sub>Cadastro</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/login.jpg" width="220"/><br/>
+      <sub>Login</sub>
+    </td>
+  </tr>
+</table>
+
+### Depósito e Coleta
+<table align="start">
+  <tr>
+    <td align="start">
+      <img src="screenshots/criacao-deposito.jpg" width="220"/><br/>
+      <sub>Criação de depósito</sub>
+    </td>
+    <td align="start">
+      <img src="screenshots/lista-coletas.jpg" width="220"/><br/>
+      <sub>Lista de coletas</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="start">
+      <img src="screenshots/coletas-disponiveis.jpg" width="220"/><br/>
+      <sub>Coletas disponíveis</sub>
+    </td>
+    <td align="start">
+      <img src="screenshots/coletas-aceitas.jpg" width="220"/><br/>
+      <sub>Coletas aceitas</sub>
+    </td>
+  </tr>
+</table>
+
+### Detalhes
+<table align="start">
+  <tr>
+    <td align="start">
+      <img src="screenshots/detalhes.jpg" width="220"/><br/>
+      <sub>Detalhes do depósito</sub>
+    </td>
+  </tr>
+</table>
